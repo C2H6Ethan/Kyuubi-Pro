@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "KyuubiPro",
+    "name": "Kyuubi Pro",
     "slug": "KyuubiPro",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -17,16 +17,25 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "config": {
+        "googleMobileAdsAppId": "ca-app-pub-9310152642296392~2238553517"
+      },
+      "bundleIdentifier": "com.c2h6.KyuubiPro"
     },
     "android": {
+      "config": {
+        "googleMobileAdsAppId": "ca-app-pub-5750711746491614~7905204041"
+      },
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.c2h6.KyuubiPro"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "description": "Kyuubi Pro version Cube Timer"
   }
 }
